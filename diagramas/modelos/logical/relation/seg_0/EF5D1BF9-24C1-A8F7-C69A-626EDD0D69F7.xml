@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="soma" directorySegmentName="seg_0" id="EF5D1BF9-24C1-A8F7-C69A-626EDD0D69F7">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 23:55:47 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<sourcePk>C70BE120-E266-6BD1-A348-1E1F148D40B6</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>753FB88F-DD8C-A66E-79C9-51CB619D577D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0326DE5A-C1C1-F18D-4A25-C27E3C9DE55A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

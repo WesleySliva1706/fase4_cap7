@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="025CC72B-BCE9-E2E6-175C-250DEF435EE0" name="T_GASTOS">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>0830CA8D-1C4A-CDAC-2CBB-51670940D288</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_gasto" id="51C36463-CA19-E025-537A-DF9B41167682">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Pode ter até 9 tipos de gastos diferentes por usuario]]></commentInRDBMS>
+<generatorID>42AFBA11-2D8E-D2B8-CDBA-7B14AC0C26B9</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_gasto" id="B7127B7A-C389-2D51-47D7-93DCACF4808A">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>8EF394E5-BD7D-C289-96E0-AB6F22A3C535</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_gasto" id="D487D6C9-B44A-6EED-1961-120E35DE5432">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[0.000.000,00]]></commentInRDBMS>
+<generatorID>0FAB661A-12D0-9BB7-5E66-E78C2B7DCE45</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_gasto" id="48B187EA-8874-57F3-B9D5-8C858A099557">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>B9FA0981-41F5-C4AB-59C6-B370732691CC</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_id_user" id="40B3E9F7-7615-CF9C-B132-DE932594F7A1">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>B26847D1-3977-4304-EAC1-B261CE33FE7F</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A9D3171-5DE4-4E32-9953-DFB9280B4D8B" referredColumn="AA87E1D8-F9E1-FDCF-AA7E-EB219F1FD47D"/>
+</associations>
+</Column>
+<Column name="T_TIPOS_id_tipo" id="48705F09-610B-82AE-888A-E8DB35560BD4">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>382816F0-B658-ACD8-1A01-97E1578539A4</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C28B018A-4581-2B79-FC29-C6EE4199D994" referredColumn="3CDDC764-46CE-8F09-551F-FE20E30E4721"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6AADD66A-E0E4-E3F7-B30A-DA481F85872C" name="T_GASTOS_PK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>6F656D90-83E3-40F2-ADC3-82EEB162BCF5</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51C36463-CA19-E025-537A-DF9B41167682"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="247818D6-95DF-2016-82CE-F907D7407341" name="T_GASTOS__IDX">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CC84EDAA-4F26-0AB3-AAF6-418D9D7AC07B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="48705F09-610B-82AE-888A-E8DB35560BD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1B66B21-2E9F-FDE8-1268-BB1729A25FAB" name="T_GASTOS_T_USUARIO_FK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>811B8556-DC89-3986-2A20-00326DAA9BA1</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40B3E9F7-7615-CF9C-B132-DE932594F7A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5303E73-1FCB-6FF5-299C-B0F6B2F4E079" name="T_GASTOS_T_TIPOS_FK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>CC84EDAA-4F26-0AB3-AAF6-418D9D7AC07B</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48705F09-610B-82AE-888A-E8DB35560BD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

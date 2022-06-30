@@ -1,0 +1,27 @@
+Fonte:
+
+    https://fonts.google.com/specimen/Anek+Latin
+
+Ícones:
+
+    Usuário:
+        https://www.flaticon.com/free-icon/user_1077063?related_id=1077063&origin=search#
+
+    Senha (Chave):
+        https://www.flaticon.com/br/icone-gratis/chave_7699150?term=senha&page=1&position=12&page=1&position=12&related_id=7699150&origin=search
+    
+    Senha (Olho Riscado e Normal):
+        https://www.flaticon.com/br/icone-premium/olho_3178377
+
+        https://www.flaticon.com/br/icone-premium/ver_4230244
+
+    Calendário:
+        https://www.flaticon.com/br/icone-premium/calendario_3291581
+    
+    Email:
+        https://www.flaticon.com/br/icone-gratis/novo-envelope-de-e-mail_69957
+
+
+GIF Carregando:
+
+    https://loading.io/

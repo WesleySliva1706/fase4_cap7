@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="442B7655-9848-4717-BA16-3BAAEC00632B" containerWithKeyObject="3CADFC73-96EE-D50A-AD5A-6E875891684D" localFKIndex="C4F30073-B176-92B4-8D18-A38CB7F01838" name="T_SOMA_RECEITAS_T_ANALISE_FK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>4DBDAB92-1358-8CD1-AC7D-F2E0188466F4</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<referredTableLongName>T_ANALISE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA9E697E-54FF-CEA0-D34A-C7710773B39E</referredTableID>
+<keyObject>673EB8A5-7DAE-A84F-4481-48A0C81CC8A3</keyObject>
+<referredKeyID>673EB8A5-7DAE-A84F-4481-48A0C81CC8A3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_analise</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

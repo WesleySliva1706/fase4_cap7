@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CADFC73-96EE-D50A-AD5A-6E875891684D" name="T_SOMA_RECEITAS">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>0326DE5A-C1C1-F18D-4A25-C27E3C9DE55A</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_RECEITAS_id_receita" id="26B1071F-67E8-947E-3BFB-E291645DD03B">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>0471A2F2-838F-204C-33A6-C7C434DF037B</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9216A614-C011-ED93-D0FD-7D704687A0F5" referredColumn="77219C35-B806-822F-E0A7-F8B3BC55B3D4"/>
+</associations>
+</Column>
+<Column name="T_ANALISE_id_analise" id="EB7AE0F8-7960-E8B4-99B9-A2D63CF1268F">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>8C829A52-DB01-EAB8-DA75-D3C2C1815D8E</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="442B7655-9848-4717-BA16-3BAAEC00632B" referredColumn="FC679A11-1446-6637-20FF-AA6D75AE0AF9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E615BA3-45CB-06E7-3BF8-970D1C371C46" name="T_SOMA_RECEITAS_PK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>7253E5D2-4F01-2A65-1A58-BA439EBB0550</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26B1071F-67E8-947E-3BFB-E291645DD03B"/>
+<colUsage columnID="EB7AE0F8-7960-E8B4-99B9-A2D63CF1268F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4F30073-B176-92B4-8D18-A38CB7F01838" name="T_SOMA_RECEITAS_T_ANALISE_FK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>4DBDAB92-1358-8CD1-AC7D-F2E0188466F4</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB7AE0F8-7960-E8B4-99B9-A2D63CF1268F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBBB1DC3-44D4-9556-C613-7C783E3897A6" name="T_SOMA_RECEITAS_T_RECEITAS_FK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>EF5D1BF9-24C1-A8F7-C69A-626EDD0D69F7</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26B1071F-67E8-947E-3BFB-E291645DD03B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

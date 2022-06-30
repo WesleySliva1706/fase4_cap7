@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21DCBC3E-EE53-0F95-A065-B480676E2A1F" name="T_SOMA_GASTOS">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>9392714C-557F-3533-03B0-F94E359AA5F1</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_GASTOS_id_gasto" id="5ED4A00D-2106-1994-FC06-E51B0A93D588">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>80606CE0-9BFA-4298-86AF-993A0F618A91</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33525D22-40A6-8DC0-CF8A-8420801032B4" referredColumn="51C36463-CA19-E025-537A-DF9B41167682"/>
+</associations>
+</Column>
+<Column name="T_ANALISE_id_analise" id="49245785-630E-385D-8369-A5344B8A1776">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>30B78C31-38FD-C753-E3AF-74B4C6978E66</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53E6663D-9EAA-26F5-EA00-51197FB36FFF" referredColumn="FC679A11-1446-6637-20FF-AA6D75AE0AF9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97E038AB-2D64-1A5F-BC83-696C50874FDF" name="T_SOMA_GASTOS_PK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>9119F961-D693-D540-95B4-25FBF8F3B784</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ED4A00D-2106-1994-FC06-E51B0A93D588"/>
+<colUsage columnID="49245785-630E-385D-8369-A5344B8A1776"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAEE5800-0A02-D76C-62F9-790D230C62D0" name="T_SOMA_GASTOS_T_GASTOS_FK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>C5ABDBE3-8411-1B33-6802-1A125170ED28</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ED4A00D-2106-1994-FC06-E51B0A93D588"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDA79AE8-05C9-1102-1F34-816A789F26DB" name="T_SOMA_GASTOS_T_ANALISE_FK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>EE43C5EF-8E53-2BC4-69F6-FACE0D871ACE</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49245785-630E-385D-8369-A5344B8A1776"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,202 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7161384-68D2-C381-51FD-4C89ED40B244" name="T_INVESTIMENTOS">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>8EFF971D-7D98-0DC7-09CF-35C35C02E633</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ivestimento" id="0DD74C89-EC09-B041-8173-DD3B33C872BD">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>CDA34234-B3CE-D311-74DA-AD2033F93660</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_ivestimento" id="1989903C-E8F6-8119-7932-34A6F20A99C8">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>5DC44ABD-5299-CAD0-8DD5-7A771CA0E098</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_ivestimento" id="45DAC7A4-8F54-9E87-A276-D842636AEE7E">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[0.000.000,00]]></commentInRDBMS>
+<generatorID>860D3000-632A-2B49-5F74-45AE9AC500CB</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_ivestimento" id="7D79E337-F4B5-5947-FB44-CB226B5ECA3A">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>02E7345F-A58D-1AE9-9227-EE05BDD6F5E9</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_investimento" id="C2AFDC80-195C-5770-5299-2DC06AB6AA05">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>1C181DB6-6DB0-CD2D-8A34-BF6934F24945</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_vencimento" id="987E1927-5D19-D6C7-918A-C648A1DF8019">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>AE9FBB41-B9EB-6561-D379-6FBF9F8E05C5</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_id_user" id="319E7BF5-63EA-E686-EEA3-4E690B73949C">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>3CB9B0B8-CB1F-85FB-D8FE-77D898E62987</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4060960-19F4-573D-8E40-0CBB914DD2A0" referredColumn="AA87E1D8-F9E1-FDCF-AA7E-EB219F1FD47D"/>
+</associations>
+</Column>
+<Column name="T_CATEGORIA_id_categoria" id="1EEA5DC6-F041-F3A7-6A9F-4C80C5B20A7F">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>AC0B1B0B-0EBC-7091-8AC1-E968BB056943</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11681F5F-89A5-4EB8-F566-28D3C5C160EF" referredColumn="D691B605-A59A-8E07-980B-FDC6F344D466"/>
+</associations>
+</Column>
+<Column name="T_LOCAL_id_local" id="C34FB3EC-6102-34E8-A254-F75DAEEBCFB8">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>17A83CC4-1642-EBD0-2F16-73FDAE209FA0</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9648997-347C-6C85-A609-DD2BAD762D60" referredColumn="479990F2-C567-AF4B-71CD-4E463D5623FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49AD0661-CAD7-69A2-44F3-B24DB8A7E0EB" name="T_INVESTIMENTOS_PK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>81C3FB6E-4CA0-43CA-1645-DF59AA299B3B</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DD74C89-EC09-B041-8173-DD3B33C872BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F083C76-AA67-7426-14E3-2FA02D1B56FB" name="T_INVESTIMENTOS__IDX">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0D0CAC02-26F4-5A8B-61C6-75ECF4359928</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="1EEA5DC6-F041-F3A7-6A9F-4C80C5B20A7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBDEF992-D45E-62A2-8263-FF65AB78BCBB" name="T_INVESTIMENTOS__IDXv1">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>81CDC2E1-5595-B4B4-1D3F-C2965A220DA6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C34FB3EC-6102-34E8-A254-F75DAEEBCFB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72BC33A2-C398-4CF4-222B-46E361E55125" name="T_INVESTIMENTOS_T_USUARIO_FK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>71DD5FAB-50AA-8D1D-029C-DBC1BD22B981</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="319E7BF5-63EA-E686-EEA3-4E690B73949C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD016FFA-E11B-41BC-8FB7-537DEAA6858B" name="T_INVESTIMENTOS_T_CATEGORIA_FK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>0D0CAC02-26F4-5A8B-61C6-75ECF4359928</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EEA5DC6-F041-F3A7-6A9F-4C80C5B20A7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D0A4FA0-D79D-6EAB-F2D0-5CAA0F816932" name="T_INVESTIMENTOS_T_LOCAL_FK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>81CDC2E1-5595-B4B4-1D3F-C2965A220DA6</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C34FB3EC-6102-34E8-A254-F75DAEEBCFB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

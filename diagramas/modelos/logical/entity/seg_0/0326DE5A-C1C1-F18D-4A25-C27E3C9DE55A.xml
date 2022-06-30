@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0326DE5A-C1C1-F18D-4A25-C27E3C9DE55A" name="T_SOMA_RECEITAS">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 23:55:27 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_receita" id="0471A2F2-838F-204C-33A6-C7C434DF037B">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 23:55:47 UTC</createdTime>
+<generatorID>EF5D1BF9-24C1-A8F7-C69A-626EDD0D69F7</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<referedAttribute>0317B39A-CE62-A3B0-926C-5FC54D83D634</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_analise" id="8C829A52-DB01-EAB8-DA75-D3C2C1815D8E">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 23:56:23 UTC</createdTime>
+<generatorID>4DBDAB92-1358-8CD1-AC7D-F2E0188466F4</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<referedAttribute>C1EF06B3-61A0-3917-2699-A7CD67FFD0FB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7253E5D2-4F01-2A65-1A58-BA439EBB0550" name="T_SOMA_RECEITAS PK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 23:55:47 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0471A2F2-838F-204C-33A6-C7C434DF037B</attributeRef>
+<attributeRef>8C829A52-DB01-EAB8-DA75-D3C2C1815D8E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

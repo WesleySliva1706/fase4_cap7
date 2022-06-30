@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C0A5F5A9-2CA8-5001-BD42-A9D8CFF1CC92" name="T_CATEGORIA">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 00:10:44 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_categoria" id="6323063F-A9A4-61CF-291B-145318DA9411">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 00:10:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Pode ter até 9 categorias]]></commentInRDBMS>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_categoria" id="F5433426-E4F5-1730-DABB-C472A539758A">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 00:10:44 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5CCA5BD2-FDCC-5103-DD96-D1EEF8AF1BE5" name="T_TIPOS PK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 00:10:44 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6323063F-A9A4-61CF-291B-145318DA9411</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

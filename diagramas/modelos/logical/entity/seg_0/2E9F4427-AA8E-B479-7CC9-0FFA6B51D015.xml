@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E9F4427-AA8E-B479-7CC9-0FFA6B51D015" name="T_ANALISE">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 22:46:33 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3CA8FB6-1890-60FD-B7B6-98E2D57932E7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_analise" id="C1EF06B3-61A0-3917-2699-A7CD67FFD0FB">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 22:46:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Armazena até 9 analise por usuario.
+
+Analise consiste no total dos lucros, total dos gastos, e o valor restante de um mês.
+]]></commentInRDBMS>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3CA8FB6-1890-60FD-B7B6-98E2D57932E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_analise" id="9B3DC808-0C92-BB0A-53E6-FCDDC10D1FBF">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 22:54:27 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3CA8FB6-1890-60FD-B7B6-98E2D57932E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lucro_mes" id="7DEB638A-A031-3C93-F069-E8630870276F">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 22:50:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[0.000.000,00]]></commentInRDBMS>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3CA8FB6-1890-60FD-B7B6-98E2D57932E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gastos_mes" id="BB543CDC-7D1E-437F-36E6-52F719580756">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 22:50:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[0.000.000,00]]></commentInRDBMS>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3CA8FB6-1890-60FD-B7B6-98E2D57932E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_user" id="304A17FD-E407-5CC5-9E7E-6A29BEFC4204">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 00:39:03 UTC</createdTime>
+<generatorID>AE8195A3-5069-3D9A-90B3-046EC93F9AEF</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3CA8FB6-1890-60FD-B7B6-98E2D57932E7" value="true"/>
+</engineerTo>
+<referedAttribute>D6852025-7C46-406A-D581-BD8ADB83EF85</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AD88A10A-26B6-0515-88C3-FE40ED63594B" name="T_RENDIMENTOS PK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 22:50:21 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3CA8FB6-1890-60FD-B7B6-98E2D57932E7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C1EF06B3-61A0-3917-2699-A7CD67FFD0FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

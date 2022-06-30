@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="53E6663D-9EAA-26F5-EA00-51197FB36FFF" containerWithKeyObject="21DCBC3E-EE53-0F95-A065-B480676E2A1F" localFKIndex="FDA79AE8-05C9-1102-1F34-816A789F26DB" name="T_SOMA_GASTOS_T_ANALISE_FK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>EE43C5EF-8E53-2BC4-69F6-FACE0D871ACE</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<referredTableLongName>T_ANALISE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA9E697E-54FF-CEA0-D34A-C7710773B39E</referredTableID>
+<keyObject>673EB8A5-7DAE-A84F-4481-48A0C81CC8A3</keyObject>
+<referredKeyID>673EB8A5-7DAE-A84F-4481-48A0C81CC8A3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_analise</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

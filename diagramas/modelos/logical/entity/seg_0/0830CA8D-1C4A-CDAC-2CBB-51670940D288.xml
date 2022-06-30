@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0830CA8D-1C4A-CDAC-2CBB-51670940D288" name="T_GASTOS">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 22:22:14 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_gasto" id="42AFBA11-2D8E-D2B8-CDBA-7B14AC0C26B9">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 22:22:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Pode ter até 9 tipos de gastos diferentes por usuario]]></commentInRDBMS>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_gasto" id="8EF394E5-BD7D-C289-96E0-AB6F22A3C535">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 22:22:14 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_gasto" id="0FAB661A-12D0-9BB7-5E66-E78C2B7DCE45">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 22:22:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[0.000.000,00]]></commentInRDBMS>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_gasto" id="B9FA0981-41F5-C4AB-59C6-B370732691CC">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 22:28:11 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_user" id="B26847D1-3977-4304-EAC1-B261CE33FE7F">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 23:24:49 UTC</createdTime>
+<generatorID>811B8556-DC89-3986-2A20-00326DAA9BA1</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<referedAttribute>D6852025-7C46-406A-D581-BD8ADB83EF85</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo" id="382816F0-B658-ACD8-1A01-97E1578539A4">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 23:26:08 UTC</createdTime>
+<generatorID>CC84EDAA-4F26-0AB3-AAF6-418D9D7AC07B</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<referedAttribute>3810281E-CA6D-FCA2-1FC1-9A6DFB921A43</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F656D90-83E3-40F2-ADC3-82EEB162BCF5" name="T_RECEITAS PK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 22:22:14 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>42AFBA11-2D8E-D2B8-CDBA-7B14AC0C26B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

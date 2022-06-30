@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possuiv1" directorySegmentName="seg_0" id="4DBDAB92-1358-8CD1-AC7D-F2E0188466F4">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 23:56:23 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<sourcePk>AD88A10A-26B6-0515-88C3-FE40ED63594B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2E9F4427-AA8E-B479-7CC9-0FFA6B51D015</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0326DE5A-C1C1-F18D-4A25-C27E3C9DE55A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

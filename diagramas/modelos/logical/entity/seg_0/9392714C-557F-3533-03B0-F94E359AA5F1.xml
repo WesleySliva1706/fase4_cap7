@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9392714C-557F-3533-03B0-F94E359AA5F1" name="T_SOMA_GASTOS">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 00:45:16 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_gasto" id="80606CE0-9BFA-4298-86AF-993A0F618A91">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 00:54:12 UTC</createdTime>
+<generatorID>C5ABDBE3-8411-1B33-6802-1A125170ED28</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<referedAttribute>42AFBA11-2D8E-D2B8-CDBA-7B14AC0C26B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_analise" id="30B78C31-38FD-C753-E3AF-74B4C6978E66">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 00:54:21 UTC</createdTime>
+<generatorID>EE43C5EF-8E53-2BC4-69F6-FACE0D871ACE</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<referedAttribute>C1EF06B3-61A0-3917-2699-A7CD67FFD0FB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9119F961-D693-D540-95B4-25FBF8F3B784" name="T_SOMA_GASTOS PK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 00:54:12 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="8656CEC8-6657-370E-E041-348E47212C11" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>80606CE0-9BFA-4298-86AF-993A0F618A91</attributeRef>
+<attributeRef>30B78C31-38FD-C753-E3AF-74B4C6978E66</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

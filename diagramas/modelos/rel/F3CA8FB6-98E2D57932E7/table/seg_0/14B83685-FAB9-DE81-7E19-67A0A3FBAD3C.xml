@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14B83685-FAB9-DE81-7E19-67A0A3FBAD3C" name="T_RECEITAS">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>753FB88F-DD8C-A66E-79C9-51CB619D577D</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_receita" id="77219C35-B806-822F-E0A7-F8B3BC55B3D4">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Pode ter até 9 investimentos por usuario]]></commentInRDBMS>
+<generatorID>0317B39A-CE62-A3B0-926C-5FC54D83D634</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_receita" id="F771C4F4-3795-4306-A4D8-A12CB2586C33">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>19B5CA85-8FE6-BE03-18FA-8BA61697361A</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_receita" id="1AF46995-2E6C-C1DE-F7BF-59971A19DF47">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[0.000.000,00]]></commentInRDBMS>
+<generatorID>58E3BF4B-5374-F525-BAAC-168559776523</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_receita" id="33CEB423-404D-8F1B-6D79-6A2A8E3A8B22">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>789DBC2C-7ABA-9439-0990-572514F2B69E</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_id_user" id="451A0B8F-D26B-73B3-2219-1915F4C2076E">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>9DF1A4CD-D843-6268-3D8F-FB157523080C</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC1A31F3-964F-BE7E-EF85-35D60350CAFF" referredColumn="AA87E1D8-F9E1-FDCF-AA7E-EB219F1FD47D"/>
+</associations>
+</Column>
+<Column name="T_TIPOS_id_tipo" id="D3570973-A47B-A4DB-BB21-05BE666564D8">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>E9F546F1-D96B-F728-B407-557C3AA94759</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08592958-712E-AE13-5969-159C7D5598A9" referredColumn="3CDDC764-46CE-8F09-551F-FE20E30E4721"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6E7E224-15D6-8060-C6E5-D6614D3E1839" name="T_RECEITAS_PK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>C70BE120-E266-6BD1-A348-1E1F148D40B6</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77219C35-B806-822F-E0A7-F8B3BC55B3D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4ABEAB87-A70F-C574-E141-CC27F74E90B2" name="T_RECEITAS__IDX">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F3745A56-BAF4-0418-8C02-BF7BD930F724</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D3570973-A47B-A4DB-BB21-05BE666564D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C66697E7-00F7-376D-F51D-7ECF547EA56D" name="T_RECEITAS_T_USUARIO_FK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>1ED8887B-37AB-2309-9DEB-D4EB6DC7537E</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="451A0B8F-D26B-73B3-2219-1915F4C2076E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7288E505-6A09-A524-E7B6-E6A7DCA78226" name="T_RECEITAS_T_TIPOS_FK">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-24 01:23:50 UTC</createdTime>
+<generatorID>F3745A56-BAF4-0418-8C02-BF7BD930F724</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3570973-A47B-A4DB-BB21-05BE666564D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

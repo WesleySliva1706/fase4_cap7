@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="gasta" directorySegmentName="seg_0" id="811B8556-DC89-3986-2A20-00326DAA9BA1">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 22:27:28 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="05163A50-0714-242D-9164-7E09BF30E4B9" value="true"/>
+</engineerTo>
+<sourcePk>F8CD6814-FF30-15E3-974B-C9A6081300BE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B858EC0A-E254-5E9B-2968-CC15D25402E3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0830CA8D-1C4A-CDAC-2CBB-51670940D288</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

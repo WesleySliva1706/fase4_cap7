@@ -1,0 +1,96 @@
+body {
+    font-family: 'Anek Latin', sans-serif;
+}
+
+#gifCarregando {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: none;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.titles {
+    margin-top: 20%;
+    margin-bottom: 5%;
+    color: #379DF0;
+}
+
+.input-group {
+    position: relative;
+    top: 15px;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.input-group-text {
+    background-color: #379DF0;
+}
+
+.input-group {
+    border: 3px solid #37F05A;
+    border-radius: 25px;
+    box-shadow: none !important;
+}
+
+.input-group:hover {
+    border: 3px solid #379DF0;
+    border-radius: 25px;
+    box-shadow: none !important;
+}
+
+.input-group:hover::placeholder {
+    color: white;
+}
+
+.form-control,
+.input-group-text,
+.btn-senha {
+    border: none;
+    border-radius: 25px;
+    box-shadow: none !important;
+}
+
+.btn-senha {
+    background-color: #fff !important;
+}
+
+.btns-app {
+    background-color: #37F05A;
+    border: 3px solid;
+    font-size: 35px;
+    height: 75px;
+    border-radius: 25px;
+}
+
+#btnLogin {
+    position: relative;
+    top: 50px;
+}
+
+#btnCadastro {
+    position: relative;
+    top: 15px;
+}
+
+#linksLogin {
+    position: relative;
+    top: 100px;
+}
+
+#linksCadastro {
+    position: relative;
+    top: 25px;
+}

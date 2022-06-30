@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pode" directorySegmentName="seg_0" id="2D6B88FA-A545-B2E2-AAE0-D7D35175F2D9">
+<createdBy>wesle</createdBy>
+<createdTime>2022-05-23 22:40:15 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="05163A50-0714-242D-9164-7E09BF30E4B9" value="true"/>
+</engineerTo>
+<sourcePk>F8CD6814-FF30-15E3-974B-C9A6081300BE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B858EC0A-E254-5E9B-2968-CC15D25402E3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C6C9716A-4D9A-D2F3-0830-6ECEE8BBC946</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

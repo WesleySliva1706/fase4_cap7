@@ -1,0 +1,7 @@
+Usuário e Senha para o Login:
+User: userTeste
+Senha: senhaTeste123
+
+O cadastro não cadastra realmente, devido a auxencia de uma banco de dados.
+
+A página de home é só uma por enquanto é só um enfeite para o redirecionamento funcionar.
